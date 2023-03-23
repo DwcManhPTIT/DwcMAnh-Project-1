@@ -246,7 +246,8 @@
     width: 150px;
     height: 150px;
     background-color: white;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 20px;
     border-radius: 7%;
     align-items: center;
@@ -291,11 +292,14 @@
     .section-two .inner-image{
         width: 100%;
         margin-bottom: 30px;
+        margin-right: 0px;
     }
     .section-two .inner-wrap{
         
         flex-wrap: wrap;
     }
+
+}
     @media (max-width: 767.98px) {
         .section-two .inner-wrap {
            text-align: center;
@@ -308,8 +312,14 @@
             font-size: 40px;
         }
      }
+     @media (max-width: 576px) {
+        .section-two .inner-title{
+            font-size: 35px;
+        }
+        }
 
-}
+
+
 
 
 
@@ -403,6 +413,8 @@
             font-size: 40px;
         }
      }
+
+
 
 
 /* 
