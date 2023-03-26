@@ -761,7 +761,8 @@ end-section-three */
 
 .section-nine{
     background-color: #31363A;
-    padding: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .section-nine .inner-sub-title{
@@ -788,11 +789,13 @@ end-section-three */
     width: 31.5%;
     border-radius: 10px;
     background-color: white;
+    position: relative;
     
 }
 
 .section-nine .inner-box .box .box-wrap{
     padding: 40px 40px;
+    
 }
 
 .section-nine .inner-box .box .box-wrap .inner-desc {
@@ -814,7 +817,6 @@ end-section-three */
 
 .section-nine .inner-box .box .name-wrap{
     display: flex;
-    position: relative;
 }
 
 .section-nine .inner-box .box .name-wrap .inner-name h4{
@@ -823,18 +825,34 @@ end-section-three */
     font-weight: 600;
     margin: 6px 0px;
 }
-.section-nine .inner-box .box .name-wrap::before{
-    
-    content: "\f10e" ;
-    font-family: "Font Awesome 6 Free";
+.section-nine .inner-box .box .icon{
     position: absolute;
-    font-size: 30px;
-    
-    right: 30px;
-    bottom: 70px;
+    font-size: 60px;
+    color: black;
+    right: 16%;
+    bottom: 21%;
 
 }
 
+
+@media (max-width: 991.98px) {
+    .section-nine .inner-box .box {
+      width: 47%;
+      margin-bottom: 30px;
+    }
+    .section-nine .inner-box .box-3{
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+
+    .section-nine .container .inner-box .box {
+        width: 100%;
+        text-align: center;
+      }
+  }
 
 
 
